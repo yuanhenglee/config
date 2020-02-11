@@ -1,5 +1,5 @@
 # config
-configuration file
+configuration file 
 advcpmv
 autojump
 bat
