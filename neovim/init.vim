@@ -405,6 +405,7 @@ nnoremap <silent> <leader>e :Files ~<CR>
 nmap <leader>y :History:<CR>
 
 " ale
+let g:ale_enabled = 0
 let g:ale_linters = {
     \ 'c': ['gcc', 'cppcheck'],
     \ 'cpp': ['gcc', 'cppcheck'],

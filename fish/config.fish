@@ -1,3 +1,4 @@
+set fish_greeting
 # pwd
 set -U fish_prompt_pwd_dir_length 0
 # auto jump
@@ -19,17 +20,20 @@ alias cat='bat'
 thefuck --alias | source
 alias cp='/usr/local/bin/advcp -g'
 alias mv='/usr/local/bin/advmv -g'
+alias uci='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Analytic\ Technologies/Uci6.exe'
+alias aptf='sudo apt-fast'
 
-# vi mode
-function fish_user_key_bindings
-  fish_vi_key_bindings
-end
 
-# !! implementation
-function sudo --description "Replacement for Bash 'sudo !!' command to run last command using sudo."
+# sudo !!
+function sudo
     if test "$argv" = !!
-    eval command sudo $history[1]
-else
-    command sudo $argv
+        eval command sudo $history[1]
+    else
+        command sudo $argv
     end
 end
+
+# fzf
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_COMMAND='rg --files'
+
