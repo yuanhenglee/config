@@ -17,10 +17,8 @@ alias showleetcode='leetcode show -g -x -l c++ -o ~/Documents/code/leetcode'
 alias ptt='ssh bbsu@ptt.cc'
 alias p3='python3'
 alias cat='bat'
-thefuck --alias | source
 alias cp='/usr/local/bin/advcp -g'
 alias mv='/usr/local/bin/advmv -g'
-alias uci='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Analytic\ Technologies/Uci6.exe'
 alias aptf='sudo apt-fast'
 
 
