@@ -1,6 +1,7 @@
 # config
 configuration file 
 
+# useful stuff
 * advcpmv
 * autojump
 * bat
