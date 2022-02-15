@@ -18,10 +18,6 @@ Just a bunch of stuff I use. For faster setup.
 
 [Index of /downloads/archive/](https://apps.ankiweb.net/downloads/archive/)
 
-### Add-ons
-
-![Untitled](Untitled%2079966933af5046e2968d7a38ee980eea/Untitled.png)
-
 ## Epic game
 
 [Epic Games Store | Official Site](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjyvM_71IH2AhVAzYsBHQboB8oQFnoECAoQAQ&url=https%3A%2F%2Fwww.epicgames.com%2Fstore%2Fzh-Hant%2F&usg=AOvVaw2nnyxeP1lbOQzS6nfGiuCF)
