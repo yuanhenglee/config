@@ -139,8 +139,9 @@ keybind
 
 ```bash
 git clone https://github.com/yuanhenglee/config.git
-ln -s zsh/.zshrc ~/.zshrc
-ln -s vim/.vimrc ~/.vimrc
+cd ~
+ln -s Documents/repo/config/zsh/.zshrc .zshrc
+ln -s Documents/repo/config/vim/.vimrc .vimrc
 ```
 
 ## Others
