@@ -151,6 +151,7 @@ git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
 brew install bat
 brew install lsd
 brew install ripgrep
+brew install btop
 ```
 
 ## autojump
