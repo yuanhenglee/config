@@ -129,6 +129,10 @@ keybind
 
 [Releases · zonble/ykk_installer](https://github.com/zonble/ykk_installer/releases)
 
+## Nerd Font
+
+FiraCode(https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip)
+
 # CLI stuff
 
 ## homebrew
@@ -140,8 +144,8 @@ keybind
 ```bash
 git clone https://github.com/yuanhenglee/config.git
 cd ~
-ln -s Documents/repo/config/zsh/.zshrc .zshrc
-ln -s Documents/repo/config/vim/.vimrc .vimrc
+ln -s Documents/code/config/zsh/.zshrc .zshrc
+ln -s Documents/code/config/vim/.vimrc .vimrc
 ```
 
 ## Others
@@ -157,9 +161,9 @@ brew install btop
 ## autojump
 
 ```bash
-git clone git://github.com/wting/autojump.git
+git clone https://github.com/wting/autojump.git
 cd autojump
-./install.pyls
+./install.py
 
 ```
 
