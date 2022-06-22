@@ -129,6 +129,28 @@ keybind
 
 [Releases · zonble/ykk_installer](https://github.com/zonble/ykk_installer/releases)
 
+在 ~/Library/Preferences 內找 com.yahoo.KeyKey.plist
+
+然後把：
+```
+    <key>ExcludedModulePackages</key>
+    <array/>
+    <key>ExcludedModules</key>
+    <array/>
+```
+改為：
+```
+    <key>ExcludedModulePackages</key>
+    <array>
+            <string>OneKey</string>
+    </array>
+    <key>ExcludedModules</key>
+    <array>
+            <string>OneKey</string>
+    </array> 
+```
+再 Reboot 便可以了。
+
 ## Nerd Font
 
 FiraCode(https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip)
