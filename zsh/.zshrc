@@ -41,6 +41,7 @@ alias ll='ls -la'
 alias ghost= 'ssh s10704@ghost.cs.nccu.edu.tw'
 alias prevd='cd ../"$(ls -F .. | grep '/' | grep -B1 -xF "${PWD##*/}/" | head -n 1)"'
 alias nextd='cd ../"$(ls -F .. | grep '/' | grep -A1 -xF "${PWD##*/}/" | tail -n 1)"'
+alias lol='/Users/yhl/Documents/code/repo/lol_voice.sh'
 
 
 
