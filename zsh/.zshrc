@@ -32,6 +32,7 @@ fi
 	[[ -s /Users/yhl/.autojump/etc/profile.d/autojump.sh ]] && source /Users/yhl/.autojump/etc/profile.d/autojump.sh
 
 	autoload -U compinit && compinit -u
+. /usr/share/autojump/autojump.sh
 
 
 # alias
